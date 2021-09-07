@@ -132,10 +132,10 @@ a {
 #first-background {
   /* this is dumb. */
   width: 100%;
+  position: -webkit-sticky;
   position: sticky;
   top: 1;
   left: 0;
-  filter: blur(1px);
 }
 
 #background { 
@@ -144,7 +144,6 @@ a {
   position: sticky;
   top: 0;
   left: 0;
-  filter: blur(1px);
 }
 
 /* AHAHAHAH YESSS  me me me */
